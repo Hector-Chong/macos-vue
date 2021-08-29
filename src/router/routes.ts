@@ -11,7 +11,7 @@ const routes: AppRouteRecordRaw[] = [
     path: '/login',
     name: 'Login',
     meta: {},
-    component: import('@/views/login/index.vue'),
+    component: () => import('@/views/login/index.vue'),
   },
   {
     path: '/desktop',
