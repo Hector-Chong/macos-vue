@@ -1,0 +1,10 @@
+$prefix: 'wechat';
+
+$wechat-green: rgb(39, 171, 78);
+
+.#{$prefix} {
+  &__avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
